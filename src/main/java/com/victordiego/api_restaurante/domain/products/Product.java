@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @NoArgsConstructor
 
-public class Products {
+public class Product {
 
     @Id
     private String id;
