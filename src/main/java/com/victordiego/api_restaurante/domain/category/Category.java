@@ -22,4 +22,10 @@ public class Category {
 
     private String ownerId;
 
+    public Category(CategoryDTO categoryData) {
+        this.title = categoryData.title();
+        this.description = categoryData.description();
+        this.ownerId = categoryData.ownerId();
+    }
+
 }
